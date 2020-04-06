@@ -1,0 +1,12 @@
+<div class="header">
+  <h1>Let's find new music!</h1>
+</div>
+<div class="parent">
+<div class="app">
+  <app-question [question]="activeQuestion"></app-question>
+  <button type="button" class="btn btn-success" *ngIf="!renderResults" (click)="nextQuestion()">Next Question</button>
+</div>
+  <div class="result">
+    <app-result *ngIf="renderResults" [result]=result></app-result>
+  </div>
+</div>

@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  color: black;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 250%;
+}
+
+.header {
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(9, 61, 28);
+}
+
+.app {
+  padding: 10px;
+  margin: 100px;
+  margin-bottom: 40px !important;
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(9, 61, 28);
+  display: inline-block;
+  width: 850px;
+}
+.result {
+  text-align: center;
+  color: black;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 180%
+}
+
+.parent {
+  text-align: center;
+}
+.btn{
+  background-color: #7aaea3;
+  border-color: #7aaea3;
+  margin-bottom:15px;
+}
+.btn:active{
+  background-color: #61917e;
+  border-color: #61917e;
+}

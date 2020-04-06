@@ -1,0 +1,21 @@
+<div class="question">
+  {{question.question}}
+  <div class="checkboxes">
+    <div class="column">
+      <span>Da</span>
+      <label class="checkbox-label">
+        <input class="checkbox" [(ngModel)]="question.answer" (ngModelChange)="checkboxChanged(true)"
+               type="checkbox" id="{{question.question}}1" />
+        <label for="{{question.question}}1" class="custom-checkbox"></label>
+      </label>
+    </div>
+    <div class="column">
+      <span>Nu</span>
+      <label class="checkbox-label">
+        <input class="checkbox" [(ngModel)]="!question.answer" (ngModelChange)="checkboxChanged(false)"
+               type="checkbox" id="{{question.question}}2" />
+        <label for="{{question.question}}2" class="custom-checkbox"></label>
+      </label>
+    </div>
+  </div>
+</div>
